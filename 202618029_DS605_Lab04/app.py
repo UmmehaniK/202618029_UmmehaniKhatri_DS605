@@ -101,8 +101,16 @@ st.markdown("""
 @st.cache_resource
 def load_model():
 
-    model = joblib.load("airbnb_price_model.pkl")
-    preprocessor = joblib.load("airbnb_preprocessor.pkl")
+    import os
+    import joblib
+
+    BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+
+    model_path = os.path.join(BASE_DIR, "airbnb_price_model.pkl")
+    preprocessor_path = os.path.join(BASE_DIR, "airbnb_preprocessor.pkl")
+
+    model = joblib.load(model_path)
+    preprocessor = joblib.load(preprocessor_path)
 
     return model, preprocessor
 
