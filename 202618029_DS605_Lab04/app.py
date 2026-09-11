@@ -627,23 +627,20 @@ elif page == "📊 Model Analysis":
     # Actual vs Predicted plot
 
     st.markdown(
-        '<div class="section-title">📈 Actual vs Predicted</div>',
-        unsafe_allow_html=True
+    '<div class="section-title">📈 Actual vs Predicted</div>',
+    unsafe_allow_html=True
     )
 
-    if os.path.exists("actual_vs_predicted.png"):
+    image_path = os.path.join(BASE_DIR, "actual_vs_predicted.png")
 
+    if os.path.exists(image_path):
         st.image(
-            "actual_vs_predicted.png",
+            image_path,
             caption="Actual vs Predicted Airbnb Prices",
             use_container_width=True
         )
-
     else:
-
-        st.warning(
-            "actual_vs_predicted.png was not found in the project folder."
-        )
+        st.warning("actual_vs_predicted.png was not found in the project folder.")
 
     st.divider()
 
