@@ -1,0 +1,6 @@
+Model,MAE,RMSE,R2,Accuracy,Precision,Recall,F1,Train Time,Prediction Time
+Sklearn Linear Regression,0.112096,0.150645,0.145317,,,,,0.010311,0.000297
+Manual Linear Regression,0.112096,0.150645,0.145317,,,,,0.013178,3.6e-05
+Sklearn Logistic Regression,,,,0.758333,0.776744,0.943503,0.852041,0.030429,0.000397
+Manual Logistic Regression,,,,0.75,0.757709,0.971751,0.851485,0.122072,0.000104
+Optimized Manual Logistic Regression,,,,0.7625,0.772727,0.960452,0.856423,0.0562,7.8e-05
