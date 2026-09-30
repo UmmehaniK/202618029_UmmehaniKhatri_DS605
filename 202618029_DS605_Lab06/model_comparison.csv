@@ -1,0 +1,3 @@
+Model,Features,Accuracy,Precision,Recall,F1,Train Time,Predict Time
+Original Logistic Regression,3000,0.9826,0.9578,0.9833,0.9704,13.9144,0.0752
+Improved Logistic Regression,1000,0.9729,0.9474,0.96,0.9536,12.9046,0.044
