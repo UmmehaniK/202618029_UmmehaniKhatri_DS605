@@ -1,0 +1,14 @@
+Metric,Value
+Total Images,400
+Number of Subjects,40
+Image Height,112
+Image Width,92
+Original Features per Image,10304
+Training Images,320
+Testing Images,80
+PCA Components for 90% Variance,98
+Explained Variance Retained (%),90.06
+Raw Pixel Matching Accuracy (%),95.0
+PCA Matching Accuracy (%),95.0
+Best ML Model,PCA Nearest Face
+Best ML Accuracy (%),95.0

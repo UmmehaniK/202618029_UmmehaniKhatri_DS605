@@ -1,0 +1,20 @@
+{
+    "project": "Image Representation, PCA, Eigenfaces and Face Recognition",
+    "course": "DS605",
+    "dataset": "AT&T Database of Faces (ORL)",
+    "total_images": 400,
+    "total_subjects": 40,
+    "image_dimensions": [
+        112,
+        92
+    ],
+    "original_features_per_image": 10304,
+    "training_images": 320,
+    "testing_images": 80,
+    "pca_components_for_90_percent_variance": 98,
+    "explained_variance_percent": 90.06,
+    "raw_pixel_matching_accuracy_percent": 95.0,
+    "pca_matching_accuracy_percent": 95.0,
+    "best_ml_model": "PCA Nearest Face",
+    "best_ml_accuracy_percent": 95.0
+}
