@@ -114,5 +114,5 @@ A rigorous 70/30 stratified train-test split benchmark evaluating all four featu
 
 3. **Launch the Jupyter Notebook:**
    ```bash
-   jupyter notebook Lab8_Assignment.ipynb
+   jupyter notebook 202618029_Lab08.ipynb
    ```
