@@ -8,7 +8,7 @@ This repository contains scratch implementations and Scikit-Learn comparisons of
 ## 📁 Repository Structure
 
 ```text
-├── Lab8_Assignment.ipynb    # Main runnable notebook containing all implementations and plots
+├── 202618029_Lab08.ipynb    # Main runnable notebook containing all implementations and plots
 ├── README.md                # Project documentation, methodology, and empirical observations
 └── requirements.txt         # Required Python packages
 ```
