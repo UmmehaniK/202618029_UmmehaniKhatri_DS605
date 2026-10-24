@@ -103,8 +103,8 @@ A rigorous 70/30 stratified train-test split benchmark evaluating all four featu
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/<your-username>/<your-repo-name>.git
-   cd <your-repo-name>
+   git clone https://github.com/<UmmehaniK>/<202618029_UmmehaniKhatri_DS605>.git
+   cd <202618029_DS605_Lab08>
    ```
 
 2. **Install dependencies:**
